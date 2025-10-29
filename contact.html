@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Abasila Creative Arts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.svg" alt="Abasila Creative Arts Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch to learn more about our artwork or commission a piece</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>We'd love to hear from you! Whether you're interested in purchasing a piece, commissioning custom artwork, or simply want to learn more about our work, don't hesitate to reach out.</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-text">
+                                    <h3>Address</h3>
+                                    <p>13028 121 Street Northwest<br>T5L 0B4, AB<br>Canada</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-text">
+                                    <h3>Phone</h3>
+                                    <p>587-664-5437</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">✉️</div>
+                                <div class="contact-text">
+                                    <h3>Email</h3>
+                                    <p>info@abasilacreativearts.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">🕒</div>
+                                <div class="contact-text">
+                                    <h3>Hours</h3>
+                                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: By appointment</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h3>Follow Us</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-link">📘</a>
+                                <a href="#" class="social-link">📷</a>
+                                <a href="#" class="social-link">🐦</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Send us a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="purchase">Purchase Inquiry</option>
+                                    <option value="commission">Custom Commission</option>
+                                    <option value="exhibition">Exhibition Inquiry</option>
+                                    <option value="general">General Question</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="visit-info">
+                    <h2>Visit Our Studio</h2>
+                    <p>We welcome visitors to our studio by appointment. Come see our work in person and learn about our creative process. Our studio showcases a rotating selection of current and past works, including pieces from our marine life and African wildlife collections.</p>
+                    
+                    <div class="visit-features">
+                        <div class="feature">
+                            <div class="feature-icon">🎨</div>
+                            <h3>Studio Tour</h3>
+                            <p>See our workspace and creative process</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🛍️</div>
+                            <h3>Purchase Artwork</h3>
+                            <p>Buy pieces directly from the artist</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">💬</div>
+                            <h3>Commission Work</h3>
+                            <p>Discuss custom artwork projects</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-section">
+                    <h2>Find Us</h2>
+                    <div class="map-placeholder">
+                        <p>📍 13028 121 Street Northwest, T5L 0B4, AB</p>
+                        <p>Located in the heart of Alberta, Canada</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Abasila Creative Arts</h3>
+                    <p>Mixed media artistry celebrating African wildlife and marine life</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>13028 121 Street Northwest<br>T5L 0B4, AB<br>587-664-5437</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Abasila Creative Arts. All rights reserved.</p>
+                <p>Website designed by <strong>Sir Floyd Makori</strong> - Web Designer from Kenya | +254717220019</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
